@@ -18,9 +18,8 @@ It’s a great example of how pure CSS can be used to simulate depth and structu
 
 ---
 
-## 🖼️ Preview
-![3D Shelf Preview](screenshot.png)
-*(Add your project screenshot and name it `screenshot.png`)*
+## 🖼️ Link
+https://shelf-six.vercel.app/
 
 ---
 
