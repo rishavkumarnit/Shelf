@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Shelf</title>
+    <style>
+      .outer-box {
+        margin-left: 100px;
+        margin-top: 100px;
+        border: 2px solid black;
+        height: 560px;
+        width: 260px;
+        position: relative;
+      }
+      .inner-box {
+        margin-left: 44px;
+        margin-top: 50px;
+        border: 2px solid black;
+        height: 480px;
+        width: 165px;
+        position: absolute;
+        top: -22px;
+      }
+      .shelf1 {
+        border: 2px solid black;
+        margin-left: 29px;
+        height: 75px;
+        width: 200px;
+        position: absolute;
+        top: -23px;
+        transform: perspective(160px) rotateX(110deg);
+      }
+      .shelf2 {
+        border: 2px solid black;
+        margin-left: 29px;
+        height: 75px;
+        width: 200px;
+        position: absolute;
+        top: 88px;
+        transform: perspective(160px) rotateX(99deg);
+      }
+      .shelf3 {
+        border: 2px solid black;
+        margin-left: 29px;
+        height: 75px;
+        width: 200px;
+        position: absolute;
+        top: 190px;
+        transform: perspective(160px) rotateX(95deg);
+      }
+      .shelf4 {
+        border: 2px solid black;
+        margin-left: 29px;
+        height: 75px;
+        width: 200px;
+        position: absolute;
+        top: 280px;
+        transform: perspective(160px) rotateX(75deg);
+      }
+      .shelf5 {
+        border: 2px solid black;
+        margin-left: 29px;
+        height: 75px;
+        width: 200px;
+        position: absolute;
+        top: 380px;
+        transform: perspective(160px) rotateX(60deg);
+      }
+      .shelf6 {
+        border: 2px solid black;
+        margin-left: 29px;
+        height: 75px;
+        width: 200px;
+        position: absolute;
+        top: 490px;
+        transform: perspective(130px) rotateX(50deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-box">
+      <div class="inner-box"></div>
+      <div class="shelf1"></div>
+      <div class="shelf2"></div>
+      <div class="shelf3"></div>
+      <div class="shelf4"></div>
+      <div class="shelf5"></div>
+      <div class="shelf6"></div>
+    </div>
+  </body>
+</html>
